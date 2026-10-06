@@ -1,10 +1,17 @@
 # FSD Vue Starter
 
-Production-ready Vue 3 + Vite + TypeScript template powered by
+Vue 3 + Vite + TypeScript template powered by
 [Feature-Sliced Design](https://feature-sliced.design/).
 
 This repository is the Vue template used by
 [`create-fsd-architecture`](https://www.npmjs.com/package/create-fsd-architecture).
+
+## Validation scope
+
+This is a starter template. Repository quality checks cover the checked-in
+example; production deployment requires validating your application, runtime,
+API integration, authentication, and hosting configuration. CLI support and
+release verification are documented at [fsdcli.me](https://fsdcli.me).
 
 ## Create a project
 
