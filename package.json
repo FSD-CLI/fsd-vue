@@ -10,6 +10,8 @@
     "lint": "eslint .",
     "fsd:check": "steiger ./src",
     "ci": "npm run fsd:check && npm run lint && npm run build",
+    "audit": "node scripts/audit-production.mjs",
+    "test:audit-policy": "node --test tests/audit-policy.test.mjs",
     "preview": "vite preview",
     "prepare": "husky"
   },
